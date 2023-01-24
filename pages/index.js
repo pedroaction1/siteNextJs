@@ -1,14 +1,19 @@
 import Link from 'next/link';
-import Layout from '../components/HeaderComponent/Header'
+import Header from '../components/HeaderComponent/Header';
+import Login from '../components/LoginComponent';
 import Head from 'next/head'
 
 export default function Main() {
     return (
-        <Layout>
+        <div>
+            <Header>
             <Head>
-                <title>Return of Grand Chase</title>
+                <title>AutoSecretary</title>
             </Head>
-        </Layout>
+          </Header>
+          <Login></Login>
+        </div>
+        
     )
 }
 

@@ -1,9 +1,10 @@
 import styles from './header.module.css';
+import Link from 'next/link'
 
-export default function Header({ children }) {
+export default function Header() {
     return (
-        <div className={styles.header}>
-            <main>{children}</main>
-        </div>
+        <header className={styles.header}>            
+            <h3>AutoSecretary</h3>
+        </header>
     )
 }
