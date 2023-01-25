@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Header from '../components/HeaderComponent'
+import Header from '../components/HeaderComponent/Header'
 
 
 export default function dividendo(){
