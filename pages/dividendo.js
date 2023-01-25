@@ -1,12 +1,15 @@
-import Link from "next/link"
-import Header from '../components/HeaderComponent/Header'
+import Head from 'next/head'
 
+export default function Dividendo() {
 
-export default function dividendo(){
-    return (
-        <Header>
-            Bruh
-        </Header>
-    )
+  return (
+    <div style={{ padding: 30 }}>
+      <Head>
+        <title>Sling Academy</title>
+      </Head>
+      <div>
+        
+      </div>
+    </div>
+  )
 }
-
